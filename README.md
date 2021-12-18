@@ -1,5 +1,6 @@
-# RustAutoBuy
+# RustAutoBuy (SPEED)
 Rust Auto Buy is a script for Rust *the game* to automate the buy/sell of items!
+SPEED branch for faster sell times with the down side of looking more like a bot.
 
 Please note that TheSqueeker and RustAutoBuy have no affiliations with Facepunch Studios Ltd or Rust
 
