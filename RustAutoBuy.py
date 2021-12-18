@@ -47,13 +47,13 @@ while hold == True and keyboard.is_pressed('f') == False:
     print('Count:',cycle_count,'\nSeconds:',round(cycle_count* cycle_time, 2))
     #if count == 5:
     #    exit()
-    mouse.move(amtx,amty,duration=0.1)
-    sleep(0.2)
+    mouse.move(amtx,amty,duration=0.01)
+    sleep(0.001)
     mouse.click(button='left')
-    sleep(0.235)
+    sleep(0.2)
     keyboard.write('99')
-    sleep(0.2311)
-    mouse.move(bbx,bby,duration=0.15)
+    sleep(0.02)
+    mouse.move(bbx,bby,duration=0.01)
     mouse.click(button='left')
     sleep(vending_time)
     cycle_count= cycle_count+ 1
